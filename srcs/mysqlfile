@@ -1,0 +1,2 @@
+CREATE DATABASE WordPress CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+GRANT ALL ON WordPress.* TO 'root'@'localhost' IDENTIFIED BY 'pass' WITH GRANT OPTION;
